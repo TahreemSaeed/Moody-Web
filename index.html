@@ -1,0 +1,46 @@
+<html>
+<head>
+    
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css" type="text/css">
+    </head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div id="cal">
+    <form id="java">
+    <input type="text" name="answer" id="ans">
+        <br>
+        <input type="button" value="1" onclick="java.answer.value +='1' ">
+        <input type="button" value="2" onclick="java.answer.value +='2' ">
+        <input type="button" value="3" onclick="java.answer.value +='3' ">
+        <input type="button" value="4" onclick="java.answer.value +='4' ">
+        
+    <br>    
+        
+        
+        <input type="button" value="5" onclick="java.answer.value +='5' ">
+        <input type="button" value="6" onclick="java.answer.value +='6' ">
+        <input type="button" value="7" onclick="java.answer.value +='7' ">
+        <input type="button" value="8" onclick="java.answer.value +='8' ">
+        
+    <br>    
+        <input type="button" value="9" onclick="java.answer.value +='9' ">
+        <input type="button" value="0" onclick="java.answer.value +='0' ">
+        <input type="button" value="%" onclick="java.answer.value +='-' ">
+        <input type="button" value="+" onclick="java.answer.value +='+' ">
+    <br>
+        
+        
+        <input type="button" value="*" onclick="java.answer.value +='/' ">
+        <input type="button" value="/" onclick="java.answer.value +='*' ">
+        <input type="button" value="+" onclick="java.answer.value +='%' ">
+        <input type="button" value="=" onclick="java.answer.value= eval(java.answer.value) ">
+    <br>    
+        
+        <input type="button" value="clear" onclick="java.answer.value= ' ' " id="clear">
+            </form>
+    </div>
+    
+    </body>
+
+</html>
